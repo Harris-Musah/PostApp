@@ -1,7 +1,7 @@
 
 const Navbar = () =>{
     return(
-        <nav className="bg-[#18a999] text-white">
+        <nav className="fixed bg-[#18a999] text-white w-full top-0">
            <div className="flex flex-nowrap justify-between items-center h-10">
                 <div className="space-x-2">
                     <h3 className="font-bold text-3xl ml-3">Navbar</h3>
