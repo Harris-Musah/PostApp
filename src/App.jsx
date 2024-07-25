@@ -11,7 +11,9 @@ function App() {
         <div>
           <br /><br />
         </div>
-        <PostPage/>
+        <div className='flex items-center justify-center'>
+          <PostPage/>
+        </div>
         <Footer/>
       </div>
     </>

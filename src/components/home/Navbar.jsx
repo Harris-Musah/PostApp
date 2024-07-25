@@ -28,9 +28,9 @@ const Navbar = () =>{
                 </button>
 
                 <div className={`${
-                    isOpen ? "block bg-[#0693e3] mt-4 rounded" : "hidden"
+                    isOpen ? "block bg-[#0693e3] mt-4 rounded-xl" : "hidden"
                     } w-full md:block md:w-auto`}>
-                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 space-y-4 sm:space-y-0 bg-transparent md:flex-row md:space-x-12 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent">
+                    <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 space-y-4 sm:space-y-0 bg-transparent md:flex md:space-x-5 md:flex-row  rtl:space-x-reverse md:mt-0 md:border-0 ">
                         <li>
                             <a href="#" className="block py-2 px-3 text-white hover:bg-blue-600 rounded md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 md:hover:border-b-2 md:hover:border-white transition-colors duration-200"
                             aria-current="page">
